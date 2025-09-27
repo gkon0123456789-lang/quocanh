@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Message Page</title>
+    <style>
+        /* Reset basic margins */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Flexbox used to perfectly center content both vertically and horizontally */
+        body {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+            min-height: 100vh;       /* Ensure it spans the full screen height */
+            background-color: #f0f0f0; /* Very light gray background */
+        }
+
+        .message {
+            padding: 30px 40px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            max-width: 90%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0056b3; /* A nice blue color */
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.4em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>A Quick Note</h1>
+        <!-- REPLACE THE TEXT BELOW WITH YOUR SHORT MESSAGE -->
+        <p>Success! This text is now live on the internet using GitHub Pages.</p>
+        <!-- END OF CUSTOM TEXT -->
+    </div>
+</body>
+</html>
